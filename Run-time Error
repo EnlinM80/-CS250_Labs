@@ -1,8 +1,8 @@
 class lab5 {
 public static void main(String args[])
 {
-int arr[] = new int[5];
-arr[9] = 250;
+int arr[] = new int[122];
+arr[2] = 135;
 System.out.println("Value assigned! ");
 }
 }
