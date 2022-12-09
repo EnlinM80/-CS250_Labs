@@ -1,4 +1,4 @@
-class MisspelledVar {
+class lab5 {
 public static void main(String args[])
 {
 int a = 2, b = 42;
