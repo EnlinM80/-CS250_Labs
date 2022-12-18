@@ -1,0 +1,91 @@
+//Question 1
+package com.mycompany.assignment02;
+import java.util.Arrays; 
+
+    class Assignment02 {
+
+    public static void main(String[] args) {
+       
+      int[] array1 = {1, 5, -5, 2, 12, 30};
+      int[] array2 = {-10, 50, 15, 2};
+ 
+       System.out.println("Array1 : "+Arrays.toString(array1));
+       System.out.println("Array2 : "+Arrays.toString(array2));
+ 
+        for (int i = 0; i < array1.length; i++)
+        {
+            for (int j = 0; j < array2.length; j++)
+            {
+                if(array1[i] == (array2[j]))
+                {
+                 
+                 System.out.println("Common element is : "+(array1[i]));
+         }
+      }
+    }
+ 
+ }
+}
+
+
+//Question 2
+
+package com.mycompany.assignment2b;
+import java.util.*; 
+
+public class Assignment2b {
+
+ public static void main(String[] args)
+ {
+    int[] array1 = {1,77,-5,2,65,30};
+    System.out.println("Original Array: "+Arrays.toString(array1)); 
+    int num1 = 77;
+    int num2 = 65;
+    
+    System.out.println("Result: "+result(array1, num1, num2));
+    
+    int[] array2 = {-10,50,15,2,77};
+    System.out.println("Original Array: "+Arrays.toString(array2)); 
+    int num3 = 77;
+    int num4 = 65;
+	
+    System.out.println("Result: "+result(array2, num3, num4));
+    }	
+ 
+  public static boolean result(int[] array1, int num1, int num2) {
+    for (int number : array1) {
+      boolean r = number != num1 && number != num2;
+      if (r) {
+        return false;
+        }
+     }
+        return true;
+        
+   }
+}
+
+//Question 3
+
+
+
+package com.mycompany.assignmebt2c;
+import java.util.*;
+
+public class Assignmebt2c {
+
+    static void reverse(String myArray[]){
+        Collections.reverse(Arrays.asList(myArray));
+        System.out.println("Reversed Array:" + Arrays.asList(myArray));
+    }
+ 
+     public static void main(String[] args){
+        String [] myArray = {"'s'","'a', 'b', 'a'"};
+        System.out.println("Original Array:" + Arrays.asList(myArray));
+        reverse(myArray);
+    
+        }
+  }
+
+
+
+
