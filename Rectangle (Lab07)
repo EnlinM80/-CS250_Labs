@@ -1,0 +1,21 @@
+package com.mycompany.lab07;
+
+public class Lab07 {
+
+    int width;
+    int height;
+
+    public Lab07(int width, int height){
+        this.width = width;
+        this.height = height;
+    }
+    
+    public void draw(){
+        for (int i = 0; i < height; i++){
+            for (int j = 0; j < width; j++){
+                System.out.print("*");
+            }
+            System.out.println("");
+        }
+    }
+    }
