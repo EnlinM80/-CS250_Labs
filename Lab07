@@ -1,0 +1,10 @@
+
+package com.mycompany.lab07;
+
+public class MainClass {
+    
+    public static void main(String[] args){
+         Lab07 r1 = new Lab07(2, 2);
+        r1.draw();
+    }
+}
