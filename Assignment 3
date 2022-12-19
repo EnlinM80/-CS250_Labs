@@ -1,0 +1,41 @@
+//Question 1
+package com.mycompany.assignment3;
+import java.util.*;
+
+public class Assignment3 {
+
+    public static void main(String[] args) {
+
+    Queue<String> str_queue = new LinkedList<>();
+
+    str_queue.add("1");
+    str_queue.add("2");
+    str_queue.add("3");
+    str_queue.add("4");
+    str_queue.add("5");
+    str_queue.add("6");
+    str_queue.add("7");
+    str_queue.add("8");
+    str_queue.add("9");
+    str_queue.add("10");
+  
+    System.out.println("The Queue contents:" + str_queue);
+    }
+}
+
+//Question 2
+
+package com.mycompany.assignmebt3b;
+
+public class Assignmebt3b {
+
+    public static void main(String[] args) {
+        System.out.println("Mike: " + "Who are you?");
+        System.out.println("John: " + "My name is John");
+        System.out.println("Mike: " + "Nice to meet you!");
+        System.out.println("John:" + "Nice to meet u too!");
+
+    }
+}
+
+
